@@ -81,10 +81,16 @@ body {
   padding-left: 20px;
   margin-top: 30px;
 }
-.err{
-    margin-top: 80px;
-    text-align: center;
+.err {
+  margin-top: 80px;
+  text-align: center;
 }
-.soundIcon{
-    cursor: pointer;
+.soundIcon {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 60px 25px;
+  }
 }
